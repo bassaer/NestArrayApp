@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="menu">
+        <item>@array/food_menu</item>
+        <item>@array/drink_menu</item>
+    </array>
+
+    <array name="food_menu">
+        <item>food</item>
+        <item>@array/food_array</item>
+    </array>
+
+    <array name="drink_menu">
+        <item>drink</item>
+        <item>@array/drink_array</item>
+    </array>
+
+    <string-array name="food_array">
+        <item>Sandwich</item>
+        <item>Hot dog</item>
+        <item>Salad</item>
+        <item>Donuts</item>
+    </string-array>
+
+    <string-array name="drink_array">
+        <item>Coffee</item>
+        <item>Tea</item>
+        <item>Coke</item>
+        <item>Water</item>
+    </string-array>
+
+</resources>
